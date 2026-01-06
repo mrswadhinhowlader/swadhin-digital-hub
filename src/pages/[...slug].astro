@@ -7,10 +7,10 @@ import "@wix/wix-vibe-plugins/plugins-vars.css";
 import "@wix/wix-vibe-plugins/plugins-theme.css";
 import "@/styles/global.css";
 
-// এই অংশটি যোগ করা হয়েছে বিল্ড এরর কমানোর জন্য
+// এই অংশটি যোগ করা হয়েছে বিল্ড এরর সমাধান করার জন্য
 export async function getStaticPaths() {
   return [
-    { params: { slug: undefined } }, // এটি হোম পেজের জন্য
+    { params: { slug: undefined } }, // এটি হোম পেজের জন্য (/)
   ];
 }
 
