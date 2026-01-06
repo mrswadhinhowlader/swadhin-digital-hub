@@ -3,9 +3,9 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "dev": "wix dev",
-    "build": "wix build",
-    "preview": "wix preview",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
     "release": "wix release",
     "env": "wix env pull",
     "check": "npx astro check --js-only",
