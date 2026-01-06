@@ -1,6 +1,13 @@
 import { defineConfig } from 'astro/config';
+import react from '@astrojs/react';
+import tailwind from '@astrojs/tailwind';
 
+// https://astro.build/config
 export default defineConfig({
-  site: 'https://mrswadhinhowlader.github.io', // এখানে আপনার ইউজারনেম দিন
-  base: '/swadhin-digital-hub', // এখানে আপনার রিপোজিটরির নাম দিন
+  site: 'https://mrswadhinhowlader.github.io',
+  base: '/swadhin-digital-hub',
+  integrations: [
+    react(), 
+    tailwind()
+  ],
 });
